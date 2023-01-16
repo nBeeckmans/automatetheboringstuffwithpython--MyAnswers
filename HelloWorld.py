@@ -1,0 +1,10 @@
+#this is a HelloWorld script
+print('Hello World')
+print('What is your name ?')
+name = input()
+print('Hi '+name)
+print('Your name has ' + str(len(name)) +' letters!')
+print('...')
+print('How old are you ?')
+age = input()
+print('Next year you will be ' + str(int(age) + 1))
